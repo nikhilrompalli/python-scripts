@@ -25,7 +25,7 @@ DEBUG = 'DEBUG'
 def httpRequest(url, header=[], data={}, delete=False):
     
     """ This httpRequest method is used to call both HTTPPOST and HTTPGET methods. 
-    It will gets Access Token info by posting Client_secret, client_id, grant_type info to OpsRamp cloud. 
+    It will gets Access Token info by posting Client_secret, client_id, grant_type info to cloud. 
     """
     
     try:
